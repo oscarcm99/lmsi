@@ -1,0 +1,164 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+\begin{document}
+
+\section{Espacios verticales}
+La primera línea separada un espacio pequeño 
+\smallskip \\
+La línea siguiente \\
+La segunda línea separada un espacio medio 
+\medskip \\
+La línea siguiente \\
+La tercera línea separada por un espacio grande 
+\bigskip \\
+La línea siguiente \\
+La cuarta línea separada por un espacio grande 
+\vspace{3cm} \\
+La línea siguiente 
+
+\section{Espacios horizontales}
+Una palabra se separa 2.54cm \hspace{2.54cm} de la siguiente \\
+La siguiente frase se 
+\hfill{rellena de blancos hasta el final}
+
+\section{Párrafos}
+El texto centrado:
+\begin{center}
+  La primera línea del parrafo 
+  \vspace{2cm} \\
+  La segunda línea del parrafo 
+  \vspace{0.5cm} \\
+  La tercera línea del parrafo \\ 
+
+\end{center}
+ El texto a la derecha:
+\begin{flushright}
+  La primera línea del parrafo \\
+  La segunda línea del parrafo \\
+  La tercera línea del parrafo \\ 
+\end{flushright}
+
+ El texto a la izquierda:
+\begin{flushleft}
+  La primera línea del parrafo \\
+  La segunda línea del parrafo \\
+  La tercera línea del parrafo \\ 
+\end{flushleft}
+
+El texto con citas:
+\begin{quote}
+  - Hola - dijo Pepe \\
+  - Adiós - dijo Hulio \\ 
+\end{quote}
+
+\section{Tamaños de letra}
+Los distintos tamaños son: \\
+
+{\tiny Esto es tamaño tiny.} \\
+{\scriptsize Esto es tamaño scriptsize.} \\
+{\footnotesize Esto es tamaño footnotesize.} \\
+{\small Esto es tamaño small.} \\
+{\normalsize Esto es tamaño normalsize.} \\
+{\large Esto es tamaño large.} \\
+{\Large Esto es tamaño Large.} \\
+{\LARGE Esto es tamaño LARGE.} \\
+
+\section{Colecciones}
+Los dias de la semana son:
+\begin{enumerate}
+\item lunes
+\item martes
+\item miercoles
+\item jueves
+\item viernes
+	\begin{enumerate}
+	\item 24 de noviembre
+		\begin{enumerate}
+		\item viernes negro
+			\begin{enumerate}
+			\item uno
+			\item dos
+			\end{enumerate}
+		\item viernes blanco
+		\end{enumerate}
+	\item black friday
+	\end{enumerate}
+\item sabado
+\item domingo
+\end{enumerate}
+
+\section{Colecciones sin numerar}
+\begin{itemize}
+\item lunes
+\item martes
+\item miercoles
+\item jueves
+\item viernes
+	\begin{itemize}
+	\item ok
+	\item ko
+	\end{itemize}
+\item sabado
+\item domingo	
+\end{itemize}
+
+\section{Colecciones con y sin numerar}
+\begin{enumerate}
+\item lunes
+\item martes
+\item miercoles
+	\begin{itemize}
+	\item miercoles blanco
+		\begin{enumerate}
+        \item jijijijijijijijijijiji		
+		\end{enumerate}
+	\item miercoles azul	
+	\end{itemize}
+\item jueves
+\item viernes
+\item sabado
+\item domingo	
+\end{enumerate}
+\section{Colores con nombre}
+Probamos los siguientes colores
+\begin{itemize}
+\item \textcolor{green}{Verde}
+\item \textcolor{yellow}{Amarillo}
+\item \textcolor{blue}{Azul}
+\item \textcolor{red}{Rojo}
+\item \textcolor{magenta}{Magenta}
+\item \textcolor{cyan}{Cyan}
+\end{itemize}
+Probamos los siguentes colores en rgb :V
+\begin{itemize}
+\item \textcolor[rgb]{0.25,1,0.78}{ni idea de que color}
+\item \textcolor[rgb]{0.32,0.145,0.200}{ni idea hulio} 
+\item \textcolor[rgb]{0.122,0.55,1}{hola world}
+\item \textcolor[rgb]{1,0,0}{Viva el bicho}
+\item \textcolor[rgb]{0,1,1}{cyan}
+\item \textcolor[rgb]{1,1,0}{yellow}
+\item \textcolor[rgb]{0,1,0}{green}
+\item \textcolor[rgb]{0,0,1}{blue}
+\item \textcolor[rgb]{1,0,1}{magenta}
+\end{itemize}
+\section{Colores con cmyk}
+\begin{itemize}
+\item \textcolor[cmyk]{0,1,1,0}{Rojo}
+\item \textcolor[cmyk]{1,0,1,0}{Verde}
+\item \textcolor[cmyk]{1,1,0,0}{Azul}
+\item \textcolor[cmyk]{0,0,1,0}{Amarillo}
+\item \textcolor[cmyk]{0,1,0,0}{Magenta}
+\item \textcolor[cmyk]{1,0,0,0}{Cyan}
+\end{itemize}
+\section{Modo matemático basico}
+Una ecuación de segundo grado es
+$ax^2+bx+c=0$ en la misma línea \\
+Una ecuación de segundo grado en otra línea 
+$$ax^2+bx+c=0$$ En otra línea \\
+Una sucesión de números se compone de:
+$$ x_n = x_1 + x_2 \ldots + x_n $$ 
+\end{document}
